@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Types>
+  <Type>
+    <Name>AutoAdapter.Tests.IAdapterTest</Name>
+    <TypeConverter>
+      <TypeName>AutoAdapter.AdapterConverter[AutoAdapter.Tests.IAdapterTest]</TypeName>
+    </TypeConverter>
+  </Type>
+</Types>

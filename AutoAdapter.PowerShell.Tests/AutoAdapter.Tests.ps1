@@ -1,6 +1,6 @@
 ﻿Describe "AutoAdapter" {
 	BeforeAll {
-		Import-Module ".\AutoAdapter.PowerShell.Tests.dll"
+		Import-Module ".\AutoAdapter.PowerShell.Tests.psd1"
 	}
 	It "Converts" {
 		$test = New-Test

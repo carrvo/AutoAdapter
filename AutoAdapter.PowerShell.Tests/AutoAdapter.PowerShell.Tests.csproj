@@ -61,6 +61,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AutoAdapter.PowerShell.Tests.ps1xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="AutoAdapter.PowerShell.Tests.psd1">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="AutoAdapter.Tests.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
