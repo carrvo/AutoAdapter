@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AdapterTest.cs" />
+    <Compile Include="TestClasses\AdapterTest.cs" />
     <Compile Include="Convertable.cs" />
-    <Compile Include="IAdapterTest.cs" />
+    <Compile Include="TestClasses\IAdapterTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
