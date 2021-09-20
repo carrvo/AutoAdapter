@@ -17,7 +17,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\bin\DuckTyping\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -25,7 +25,7 @@
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
+    <OutputPath>..\bin\DuckTyping\</OutputPath>
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -49,10 +49,12 @@
     <ProjectReference Include="..\AutoAdapter.DuckTyping.Tests\AutoAdapter.DuckTyping.Tests.csproj">
       <Project>{f06b550a-143d-4d7f-9427-36b71be36f38}</Project>
       <Name>AutoAdapter.DuckTyping.Tests</Name>
+      <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\AutoAdapter.DuckTyping\AutoAdapter.DuckTyping.csproj">
       <Project>{1f6d3466-f3fc-4cb2-a5ee-5fee9a0df39c}</Project>
       <Name>AutoAdapter.DuckTyping</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
