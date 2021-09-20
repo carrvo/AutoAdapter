@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31205.134
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAdapter", "AutoAdapter\AutoAdapter.csproj", "{1F6D3466-F3FC-4CB2-A5EE-5FEE9A0DF39C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAdapter.DuckTyping", "AutoAdapter.DuckTyping\AutoAdapter.DuckTyping.csproj", "{1F6D3466-F3FC-4CB2-A5EE-5FEE9A0DF39C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAdapter.Tests", "AutoAdapter.Tests\AutoAdapter.Tests.csproj", "{F06B550A-143D-4D7F-9427-36B71BE36F38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAdapter.DuckTyping.Tests", "AutoAdapter.DuckTyping.Tests\AutoAdapter.DuckTyping.Tests.csproj", "{F06B550A-143D-4D7F-9427-36B71BE36F38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAdapter.PowerShell.Tests", "AutoAdapter.PowerShell.Tests\AutoAdapter.PowerShell.Tests.csproj", "{9FA2BA18-D40D-448D-BCE9-B5119335F4B5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoAdapter.DuckTyping.PowerShell.Tests", "AutoAdapter.DuckTyping.PowerShell.Tests\AutoAdapter.DuckTyping.PowerShell.Tests.csproj", "{9FA2BA18-D40D-448D-BCE9-B5119335F4B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

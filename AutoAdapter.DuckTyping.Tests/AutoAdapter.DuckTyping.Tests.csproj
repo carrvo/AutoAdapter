@@ -8,7 +8,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AutoAdapter.Tests</RootNamespace>
-    <AssemblyName>AutoAdapter.Tests</AssemblyName>
+    <AssemblyName>AutoAdapter.DuckTyping.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -59,9 +59,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AutoAdapter\AutoAdapter.csproj">
+    <ProjectReference Include="..\AutoAdapter.DuckTyping\AutoAdapter.DuckTyping.csproj">
       <Project>{1f6d3466-f3fc-4cb2-a5ee-5fee9a0df39c}</Project>
-      <Name>AutoAdapter</Name>
+      <Name>AutoAdapter.DuckTyping</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
