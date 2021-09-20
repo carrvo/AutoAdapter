@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace AutoAdapter.Tests
 {
-    [TypeConverter(typeof(AdapterConverter<IAdapterTest>))]
+    [TypeConverter(typeof(Adapt<IAdapterTest>))]
     public interface IAdapterTest
     {
         void TestMethod();

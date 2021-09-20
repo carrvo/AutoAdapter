@@ -35,7 +35,18 @@ namespace AutoAdapter.Tests
         {
             Assert.False(typeof(IAdapterTest).IsAssignableFrom(Sut.GetType()));
             //Assert.False(Sut.GetType().IsAssignableTo(typeof(IAdapterTest)));
-            var iSut = AdapterConverter<IAdapterTest>.Cast(Sut);
+            var iSut = Adapt<IAdapterTest>.From(Sut);
+            Assert.False(Sut.Called);
+            iSut.TestMethod();
+            Assert.True(Sut.Called);
+        }
+
+        [Fact]
+        public void ConvertsThroughIntermediary()
+        {
+            Assert.False(typeof(IAdapterTest).IsAssignableFrom(Sut.GetType()));
+            //Assert.False(Sut.GetType().IsAssignableTo(typeof(IAdapterTest)));
+            var iSut = Adapt.For(Sut).To<IAdapterTest>();
             Assert.False(Sut.Called);
             iSut.TestMethod();
             Assert.True(Sut.Called);

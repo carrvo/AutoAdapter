@@ -3,7 +3,7 @@
   <Type>
     <Name>AutoAdapter.Tests.IAdapterTest</Name>
     <TypeConverter>
-      <TypeName>AutoAdapter.AdapterConverter[AutoAdapter.Tests.IAdapterTest]</TypeName>
+      <TypeName>AutoAdapter.Adapt[AutoAdapter.Tests.IAdapterTest]</TypeName>
     </TypeConverter>
   </Type>
 </Types>

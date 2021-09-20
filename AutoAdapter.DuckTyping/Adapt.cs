@@ -9,15 +9,15 @@ using System.Threading.Tasks;
 
 namespace AutoAdapter
 {
-    public class AdapterConverter<TInterface> : TypeConverter
+    public class Adapt<TInterface> : TypeConverter
         where TInterface : class
     {
-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
+        public override Boolean CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
         {
             return true;
         }
 
-        public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
+        public override Object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
         {
             var dyn = new DynamicObject(value);
             if (dyn.LooksLike<TInterface>())
@@ -30,10 +30,31 @@ namespace AutoAdapter
             }
         }
 
-        public static TInterface Cast(object value)
+        public static TInterface From(object value)
         {
             var converter = TypeDescriptor.GetConverter(typeof(TInterface));
             return (TInterface)converter.ConvertFrom(value);
+        }
+    }
+
+    public class Adapt
+    {
+        private readonly Object _value;
+
+        public Adapt(Object value)
+        {
+            _value = value;
+        }
+
+        public static Adapt For(Object value)
+        {
+            return new Adapt(value);
+        }
+
+        public TInterface To<TInterface>()
+            where TInterface : class
+        {
+            return Adapt<TInterface>.From(_value);
         }
     }
 }
