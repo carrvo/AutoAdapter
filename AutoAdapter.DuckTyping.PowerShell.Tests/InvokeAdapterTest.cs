@@ -11,7 +11,7 @@ namespace AutoAdapter.PowerShell.Tests
     [Cmdlet(VerbsLifecycle.Invoke, "Test")]
     public class InvokeAdapterTest : Cmdlet
     {
-        [Parameter(Mandatory = true)]
+        [Parameter(Mandatory = true, ValueFromPipeline = true)]
         public IAdapterTest InputObject { get; set; }
 
         protected override void ProcessRecord()

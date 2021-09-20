@@ -5,7 +5,7 @@
 	It "Converts" {
 		$test = New-Test
 		$test | Select-Object -ExpandProperty Called | Should Be $false
-		{ Invoke-Test -InputObject $test } | Should Not Throw
+		{ $test | Invoke-Test } | Should Not Throw
 		$test | Select-Object -ExpandProperty Called | Should Be $true
 	}
 }
