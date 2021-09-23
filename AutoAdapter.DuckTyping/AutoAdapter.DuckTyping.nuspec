@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/carrvo/AutoAdapter</projectUrl>
+    <iconUrl></iconUrl>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>AutoAdapter Adapter AutoWrapper Wrapper PowerShell DuckTyping</tags>
+    <dependencies>
+      <dependency id="LinFu.Reflection" version="1.0.1" />
+    </dependencies>
+  </metadata>
+</package>
