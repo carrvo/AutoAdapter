@@ -49,5 +49,8 @@
       <Version>1.0.1.23547</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="AutoAdapter.DuckTyping.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
