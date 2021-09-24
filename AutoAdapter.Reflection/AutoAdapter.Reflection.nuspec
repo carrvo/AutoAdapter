@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>carrvo</authors>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/carrvo/AutoAdapter</projectUrl>
+    <description>
+      Provides a mechanism for automatically applying
+      the ADAPTER PATTERN (also known as a wrapper)
+      without custom code.
+    </description>
+    <releaseNotes></releaseNotes>
+    <copyright>$copyright$</copyright>
+    <tags>AutoAdapter Adapter AutoWrapper Wrapper PowerShell DuckTyping</tags>
+    <dependencies>
+      <dependency id="AutoAdapter" version="1.0.0" />
+    </dependencies>
+  </metadata>
+</package>

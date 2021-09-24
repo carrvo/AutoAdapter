@@ -12,15 +12,22 @@ For a copy, see <https://choosealicense.com/licenses/mit/#>.
 
 ## Quick Start
 ### Installation
-The package can be found on [NuGet](https://www.nuget.org/packages/AutoAdapter.DuckTyping/).
+The package can be found on NuGet:
+  - [DuckTyping variant](https://www.nuget.org/packages/AutoAdapter.DuckTyping/)
+  - [Reflection variant](https://www.nuget.org/packages/AutoAdapter.Reflection/)
 
-### Examples
+### Examples - DuckTyping
 See the testing code:
   - [For C#](./AutoAdapter.DuckTyping.Tests/Convertable.cs)
   - [For PowerShell](./AutoAdapter.DuckTyping.PowerShell.Tests/AutoAdapter.DuckTyping.PowerShell.Tests.ps1xml)
 
+  ### Examples - Reflection
+  See the testing code:
+    - [For C#](./AutoAdapter.Reflection.Tests/Convertable.cs)
+    - [For PowerShell](./AutoAdapter.Reflection.PowerShell.Tests/AutoAdapter.Reflection.PowerShell.Tests.ps1xml)
+
 ## Dependencies
-  - [LinFu.Reflection](https://www.nuget.org/packages/LinFu.Reflection/)
-  - [AutoAdapter](https://github.com/PCOL/autoadapter)
+  - DuckTyping: [LinFu.Reflection](https://www.nuget.org/packages/LinFu.Reflection/)
+  - Reflection: [AutoAdapter](https://github.com/PCOL/autoadapter)
 
 ## References
