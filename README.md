@@ -18,3 +18,9 @@ The package can be found on [NuGet](https://www.nuget.org/packages/AutoAdapter.D
 See the testing code:
   - [For C#](./AutoAdapter.DuckTyping.Tests/Convertable.cs)
   - [For PowerShell](./AutoAdapter.DuckTyping.PowerShell.Tests/AutoAdapter.DuckTyping.PowerShell.Tests.ps1xml)
+
+## Dependencies
+  - [LinFu.Reflection](https://www.nuget.org/packages/LinFu.Reflection/)
+  - [AutoAdapter](https://github.com/PCOL/autoadapter)
+
+## References
