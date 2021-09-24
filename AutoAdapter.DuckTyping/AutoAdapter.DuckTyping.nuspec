@@ -4,12 +4,15 @@
     <id>$id$</id>
     <version>$version$</version>
     <title>$title$</title>
-    <authors>$author$</authors>
+    <authors>carrvo</authors>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <projectUrl>https://github.com/carrvo/AutoAdapter</projectUrl>
-    <iconUrl></iconUrl>
-    <description>$description$</description>
+    <description>
+      Provides a mechanism for automatically applying
+      the ADAPTER PATTERN (also known as a wrapper)
+      without custom code.
+    </description>
     <releaseNotes></releaseNotes>
     <copyright>$copyright$</copyright>
     <tags>AutoAdapter Adapter AutoWrapper Wrapper PowerShell DuckTyping</tags>

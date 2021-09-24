@@ -1,4 +1,7 @@
 # AutoAdapter
+Provides a mechanism for automatically applying
+the ADAPTER PATTERN (also known as a wrapper)
+without custom code.
 
 ## Legal
 ### License
