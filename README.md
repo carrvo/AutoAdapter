@@ -21,13 +21,13 @@ See the testing code:
   - [For C#](./AutoAdapter.DuckTyping.Tests/Convertable.cs)
   - [For PowerShell](./AutoAdapter.DuckTyping.PowerShell.Tests/AutoAdapter.DuckTyping.PowerShell.Tests.ps1xml)
 
-  ### Examples - Reflection
-  See the testing code:
-    - [For C#](./AutoAdapter.Reflection.Tests/Convertable.cs)
-    - [For PowerShell](./AutoAdapter.Reflection.PowerShell.Tests/AutoAdapter.Reflection.PowerShell.Tests.ps1xml)
+### Examples - Reflection
+See the testing code:
+  - [For C#](./AutoAdapter.Reflection.Tests/Convertable.cs)
+  - [For PowerShell](./AutoAdapter.Reflection.PowerShell.Tests/AutoAdapter.Reflection.PowerShell.Tests.ps1xml)
 
 ## Dependencies
-  - DuckTyping: [LinFu.Reflection](https://www.nuget.org/packages/LinFu.Reflection/)
-  - Reflection: [AutoAdapter](https://github.com/PCOL/autoadapter)
+  - DuckTyping: [LinFu.Reflection](https://www.nuget.org/packages/LinFu.Reflection/) (MIT)
+  - Reflection: [AutoAdapter](https://github.com/PCOL/autoadapter) (MIT)
 
 ## References
