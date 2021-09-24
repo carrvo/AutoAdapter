@@ -5,7 +5,10 @@ without custom code.
 
 ## Legal
 ### License
-Copyright (c) 2021 Copyright Holder All Rights Reserved.
+Copyright (c) 2021 carrvo. All rights reserved.
+
+This work is licensed under the terms of the MIT license.  
+For a copy, see <https://choosealicense.com/licenses/mit/#>.
 
 ## Quick Start
 ### Installation
