@@ -49,10 +49,12 @@
     <ProjectReference Include="..\AutoAdapter.Reflection.Tests\AutoAdapter.Reflection.Tests.csproj">
       <Project>{433db420-f752-4af5-bf79-c144a6475350}</Project>
       <Name>AutoAdapter.Reflection.Tests</Name>
+      <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="..\AutoAdapter.Reflection\AutoAdapter.Reflection.csproj">
       <Project>{362d215f-b005-4f84-a0cd-1800fac00121}</Project>
       <Name>AutoAdapter.Reflection</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

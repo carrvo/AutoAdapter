@@ -52,6 +52,7 @@
     <ProjectReference Include="..\AutoAdapter.Reflection\AutoAdapter.Reflection.csproj">
       <Project>{362d215f-b005-4f84-a0cd-1800fac00121}</Project>
       <Name>AutoAdapter.Reflection</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
