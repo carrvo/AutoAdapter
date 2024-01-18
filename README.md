@@ -16,10 +16,14 @@ The package can be found on NuGet:
   - [DuckTyping variant](https://www.nuget.org/packages/AutoAdapter.DuckTyping/)
   - [Reflection variant](https://www.nuget.org/packages/AutoAdapter.Reflection/)
 
+The package can be found on PowerShellGallery
+  - [DuckTyping variant](https://www.powershellgallery.com/packages/AutoAdapter.DuckTyping.PowerShell)
+
 ### Examples - DuckTyping
 See the testing code:
   - [For C#](./AutoAdapter.DuckTyping.Tests/Convertable.cs)
   - [For PowerShell](./AutoAdapter.DuckTyping.PowerShell.Tests/AutoAdapter.DuckTyping.PowerShell.Tests.ps1xml)
+  - [For PowerShell](./AutoAdapter.DuckTyping.PowerShell/AutoAdapter.DuckTyping.PowerShell.tests.ps1)
 
 ### Examples - Reflection
 See the testing code:
